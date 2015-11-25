@@ -1,0 +1,5 @@
+thumbnail	link	description	id
+img/dawgcoffee.jpg	http://students.washington.edu/ydingles/info343/dawg-coffee/	a webpage practicing core HTML and CSS skills	dawg
+img/leaflet.jpg	http://students.washington.edu/ydingles/info343/police-shooting/	a webpage utilizing Leaflet.js to create an interactive map	leaf
+img/reviews.jpg	http://students.washington.edu/ydingles/info343/crud/	a webpage utilizing the Parse engine to store data from a user's interactions	rev
+img/playlist.jpg	http://students.washington.edu/ydingles/info343/spotify/	an angular application that requests data from the Spotify API. 	play

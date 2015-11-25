@@ -1,0 +1,3 @@
+name,description,url,id,link
+I am a,beginning web developer,img/profileimg.jpg,iam,/#/about
+Latest project,an angular application that requests data from the Spotify API,img/playlist.jpg,latest,/#/projects

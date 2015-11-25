@@ -1,0 +1,18 @@
+<!-- <div>
+    <h3>This is the landing template.  It comes from <code>templates/home.html</code>.</h3>
+    <h3>It has it's own contrller defined in <code>app.js</code>, 
+    which is how we'll show the variable <code>$scope.number</code> 
+    which is equal to {{number}}.</h3>
+</div> -->
+
+<div class="container">
+
+	<center>
+	<div class="container" ng-repeat="data in homeobject" id="homeid">
+	<h1>{{data.name}}</h1>
+	<p><i>{{data.description}}</i></p>
+	<a href="{{data.link}}"><img src="{{data.url}}" id="{{data.id}}"></img></a>
+	</div>
+	</center>
+
+</div>
