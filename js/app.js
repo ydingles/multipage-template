@@ -19,21 +19,21 @@ var myApp = angular.module('myApp', ['ui.router'])
   })
 })
 
-// Landing page controller: define $scope.number as a number
+// Landing page controller, read json
 .controller('HomeController', function($scope, $http){
   $http.get('json/home.json').success(function(data) {
     $scope.homeobject = data;
   })
 })
 
-// Content controller: define $scope.url as an image
+// Content controller, read json
 .controller('ProjectsController', function($scope, $http){
     $http.get('json/projects.json').success(function(data) {
     $scope.projectsobject = data;
   })
 })
 
-// About contact controller: define $scope.about as a string
+// About contact controller, read json
 .controller('AboutController', function($scope, $http){
     $http.get('json/about.json').success(function(data) {
     $scope.aboutobject = data;

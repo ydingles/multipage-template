@@ -11,6 +11,7 @@
 	margin-bottom: 20px;
 }
 
+/*animate profile image*/
 #iam {
 
 	height:200px;
@@ -31,6 +32,7 @@
           transform: rotate(360deg);
 }
 
+/*anitmate latest project*/
 #latest {
 	width: 400px;
 
@@ -45,9 +47,8 @@
 	width: 600px;
 }
 
+/*animate project thumbnails with description*/
 #dawg, #leaf, #rev, #play {
-/*	display: inline-block;
-	position: relative;*/
 	width: 600px;
 }
 
@@ -94,7 +95,6 @@ ul.img-list li:hover span.text-content {
 
 
 #footer {
-/*	position:fixed;*/
 	bottom:10px;
 	border-top:1px solid #e3e3e3;
 	text-align: right;

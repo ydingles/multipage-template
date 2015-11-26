@@ -1,24 +1,7 @@
-<!-- <div>
-    <h3>This is the content template.  It comes from <code>templates/content.html</code>.</h3>
-    <h3>It has it's own contrller defined in <code>app.js</code>,
-     which is how we'll show the variable <code>$scope.content</code> 
-    which is really just the url for the following photo: </h3>
-    <img src="{{url}}" style="height:300px"></img>
-
-    <h1>test test</h1>
-</div> -->
-
-
-<!-- <div>
-	<div class="container" ng-repeat="data in projectsobject" id="projectsid">
-	<a href="{{data.link}}"><img src="{{data.thumbnail}}" id="{{data.id}}"></img><span class="text-content"><span>{{data.description}}</span></span></a>
-	
-	</div>
-</div>
- -->
 <div class="container">
 	<center>
 		<h1>projects</h1>
+	<!-- take data from json and display with {{}} -->
 	<ul class="img-list">
 		<li ng-repeat="data in projectsobject" id="projectsid" class="thumb">
 			<a ng-href="{{data.link}}"><img ng-src="{{data.thumbnail}}" id="{{data.id}}"></img><span class="text-content">{{data.description}}</span></a>
