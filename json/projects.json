@@ -1,4 +1,4 @@
-[{"thumbnail":"/img/dawgcoffee.jpg","link":"http://students.washington.edu/ydingles/info343/dawg-coffee/","description":"a webpage practicing core HTML and CSS skills","id":"dawg"},
-{"thumbnail":"/img/leaflet.jpg","link":"http://students.washington.edu/ydingles/info343/police-shooting/","description":"a webpage utilizing Leaflet.js to create an interactive map","id":"leaf"},
-{"thumbnail":"/img/reviews.jpg","link":"http://students.washington.edu/ydingles/info343/crud/","description":"a webpage utilizing the Parse engine to store data from a user's interactions","id":"rev"},
-{"thumbnail":"/img/playlist.jpg","link":"http://students.washington.edu/ydingles/info343/spotify/","description":"an angular application that requests data from the Spotify API. ","id":"play"}]
+[{"thumbnail":"img/dawgcoffee.jpg","link":"http://students.washington.edu/ydingles/info343/dawg-coffee/","description":"a webpage practicing core HTML and CSS skills","id":"dawg"},
+{"thumbnail":"img/leaflet.jpg","link":"http://students.washington.edu/ydingles/info343/police-shooting/","description":"a webpage utilizing Leaflet.js to create an interactive map","id":"leaf"},
+{"thumbnail":"img/reviews.jpg","link":"http://students.washington.edu/ydingles/info343/crud/","description":"a webpage utilizing the Parse engine to store data from a user's interactions","id":"rev"},
+{"thumbnail":"img/playlist.jpg","link":"http://students.washington.edu/ydingles/info343/spotify/","description":"an angular application that requests data from the Spotify API. ","id":"play"}]

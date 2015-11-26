@@ -21,7 +21,7 @@
 		<h1>projects</h1>
 	<ul class="img-list">
 		<li ng-repeat="data in projectsobject" id="projectsid" class="thumb">
-			<a href="{{data.link}}"><img src="{{data.thumbnail}}" id="{{data.id}}"></img><span class="text-content">{{data.description}}</span></a>
+			<a ng-href="{{data.link}}"><img ng-src="{{data.thumbnail}}" id="{{data.id}}"></img><span class="text-content">{{data.description}}</span></a>
 		</li>
 	</ul>
 	</center>

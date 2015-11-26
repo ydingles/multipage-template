@@ -101,8 +101,15 @@ ul.img-list li:hover span.text-content {
 	padding:10px;
 }
 
+h1 {
+  font-family: Brush Script MT;
+  font-size: 50px;
+  font-smooth: always;
+}
 
 
-h3 {
-	text-align: center;
+p {
+  font-size:25px;
+  margin-top: -20px;
+  font-smooth: always;
 }

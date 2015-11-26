@@ -11,7 +11,7 @@
 	<div class="container" ng-repeat="data in homeobject" id="homeid">
 	<h1>{{data.name}}</h1>
 	<p><i>{{data.description}}</i></p>
-	<a href="{{data.link}}"><img src="{{data.url}}" id="{{data.id}}"></img></a>
+	<a ng-href="{{data.link}}"><img ng-src="{{data.url}}" id="{{data.id}}"></img></a>
 	</div>
 	</center>
 
